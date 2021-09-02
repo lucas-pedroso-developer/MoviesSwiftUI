@@ -15,6 +15,11 @@
 		385DCA8C26E166B3009C861B /* MoviesSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 385DCA8A26E166B3009C861B /* MoviesSwiftUI.xcdatamodeld */; };
 		385DCA9726E166B3009C861B /* MoviesSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCA9626E166B3009C861B /* MoviesSwiftUITests.swift */; };
 		385DCAA226E166B3009C861B /* MoviesSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAA126E166B3009C861B /* MoviesSwiftUIUITests.swift */; };
+		385DCAB726E16DDB009C861B /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAB626E16DDB009C861B /* Movies.swift */; };
+		385DCABF26E16DF1009C861B /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCABE26E16DF1009C861B /* Results.swift */; };
+		385DCAC426E16E04009C861B /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAC326E16E04009C861B /* Link.swift */; };
+		385DCAC926E16E16009C861B /* Multimedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAC826E16E16009C861B /* Multimedia.swift */; };
+		385DCAD626E16E3C009C861B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAD526E16E3C009C861B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		385DCA9D26E166B3009C861B /* MoviesSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		385DCAA126E166B3009C861B /* MoviesSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSwiftUIUITests.swift; sourceTree = "<group>"; };
 		385DCAA326E166B3009C861B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385DCAB626E16DDB009C861B /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		385DCABE26E16DF1009C861B /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		385DCAC326E16E04009C861B /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		385DCAC826E16E16009C861B /* Multimedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multimedia.swift; sourceTree = "<group>"; };
+		385DCAD526E16E3C009C861B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		385DCA7E26E166B1009C861B /* MoviesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				385DCAB526E16DCA009C861B /* Model */,
 				385DCA7F26E166B1009C861B /* MoviesSwiftUIApp.swift */,
 				385DCA8126E166B1009C861B /* ContentView.swift */,
 				385DCA8326E166B3009C861B /* Assets.xcassets */,
@@ -134,6 +145,18 @@
 				385DCAA326E166B3009C861B /* Info.plist */,
 			);
 			path = MoviesSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		385DCAB526E16DCA009C861B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				385DCAB626E16DDB009C861B /* Movies.swift */,
+				385DCABE26E16DF1009C861B /* Results.swift */,
+				385DCAC326E16E04009C861B /* Link.swift */,
+				385DCAC826E16E16009C861B /* Multimedia.swift */,
+				385DCAD526E16E3C009C861B /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385DCAD626E16E3C009C861B /* Model.swift in Sources */,
+				385DCABF26E16DF1009C861B /* Results.swift in Sources */,
+				385DCAC426E16E04009C861B /* Link.swift in Sources */,
+				385DCAB726E16DDB009C861B /* Movies.swift in Sources */,
 				385DCA8C26E166B3009C861B /* MoviesSwiftUI.xcdatamodeld in Sources */,
 				385DCA8926E166B3009C861B /* Persistence.swift in Sources */,
 				385DCA8226E166B1009C861B /* ContentView.swift in Sources */,
+				385DCAC926E16E16009C861B /* Multimedia.swift in Sources */,
 				385DCA8026E166B1009C861B /* MoviesSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
