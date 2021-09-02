@@ -25,6 +25,7 @@
 		385DCAF126E17F52009C861B /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAF026E17F52009C861B /* HttpError.swift */; };
 		385DCAF926E17F6E009C861B /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAF826E17F6E009C861B /* HttpService.swift */; };
 		385DCB0326E1803A009C861B /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCB0226E1803A009C861B /* DataExtension.swift */; };
+		385DCB0C26E18169009C861B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCB0B26E18169009C861B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		385DCAF026E17F52009C861B /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		385DCAF826E17F6E009C861B /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		385DCB0226E1803A009C861B /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		385DCB0B26E18169009C861B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		385DCA7E26E166B1009C861B /* MoviesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				385DCB0A26E18151009C861B /* Constants */,
 				385DCB0126E18024009C861B /* Extension */,
 				385DCAE626E17EFB009C861B /* Http */,
 				385DCAB526E16DCA009C861B /* Model */,
@@ -195,6 +198,14 @@
 				385DCB0226E1803A009C861B /* DataExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		385DCB0A26E18151009C861B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				385DCB0B26E18169009C861B /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +354,7 @@
 				385DCA8926E166B3009C861B /* Persistence.swift in Sources */,
 				385DCAF126E17F52009C861B /* HttpError.swift in Sources */,
 				385DCA8226E166B1009C861B /* ContentView.swift in Sources */,
+				385DCB0C26E18169009C861B /* Constants.swift in Sources */,
 				385DCAC926E16E16009C861B /* Multimedia.swift in Sources */,
 				385DCA8026E166B1009C861B /* MoviesSwiftUIApp.swift in Sources */,
 			);
