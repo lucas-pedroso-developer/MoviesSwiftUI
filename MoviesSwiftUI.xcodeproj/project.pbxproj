@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		385DCAC426E16E04009C861B /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAC326E16E04009C861B /* Link.swift */; };
 		385DCAC926E16E16009C861B /* Multimedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAC826E16E16009C861B /* Multimedia.swift */; };
 		385DCAD626E16E3C009C861B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAD526E16E3C009C861B /* Model.swift */; };
+		385DCAE226E17824009C861B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 385DCAE126E17824009C861B /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385DCAE226E17824009C861B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +177,9 @@
 			dependencies = (
 			);
 			name = MoviesSwiftUI;
+			packageProductDependencies = (
+				385DCAE126E17824009C861B /* Alamofire */,
+			);
 			productName = MoviesSwiftUI;
 			productReference = 385DCA7C26E166B1009C861B /* MoviesSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -246,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 385DCA7326E166B1009C861B;
+			packageReferences = (
+				385DCAE026E17824009C861B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 385DCA7D26E166B1009C861B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -616,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		385DCAE026E17824009C861B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		385DCAE126E17824009C861B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385DCAE026E17824009C861B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		385DCA8A26E166B3009C861B /* MoviesSwiftUI.xcdatamodeld */ = {
