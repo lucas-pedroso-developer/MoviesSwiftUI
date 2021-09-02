@@ -24,6 +24,7 @@
 		385DCAE826E17F09009C861B /* HttpGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAE726E17F09009C861B /* HttpGet.swift */; };
 		385DCAF126E17F52009C861B /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAF026E17F52009C861B /* HttpError.swift */; };
 		385DCAF926E17F6E009C861B /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCAF826E17F6E009C861B /* HttpService.swift */; };
+		385DCB0326E1803A009C861B /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DCB0226E1803A009C861B /* DataExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		385DCAE726E17F09009C861B /* HttpGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpGet.swift; sourceTree = "<group>"; };
 		385DCAF026E17F52009C861B /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		385DCAF826E17F6E009C861B /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		385DCB0226E1803A009C861B /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		385DCA7E26E166B1009C861B /* MoviesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				385DCB0126E18024009C861B /* Extension */,
 				385DCAE626E17EFB009C861B /* Http */,
 				385DCAB526E16DCA009C861B /* Model */,
 				385DCA7F26E166B1009C861B /* MoviesSwiftUIApp.swift */,
@@ -184,6 +187,14 @@
 				385DCAE726E17F09009C861B /* HttpGet.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		385DCB0126E18024009C861B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				385DCB0226E1803A009C861B /* DataExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +338,7 @@
 				385DCAC426E16E04009C861B /* Link.swift in Sources */,
 				385DCAB726E16DDB009C861B /* Movies.swift in Sources */,
 				385DCAF926E17F6E009C861B /* HttpService.swift in Sources */,
+				385DCB0326E1803A009C861B /* DataExtension.swift in Sources */,
 				385DCA8C26E166B3009C861B /* MoviesSwiftUI.xcdatamodeld in Sources */,
 				385DCA8926E166B3009C861B /* Persistence.swift in Sources */,
 				385DCAF126E17F52009C861B /* HttpError.swift in Sources */,
